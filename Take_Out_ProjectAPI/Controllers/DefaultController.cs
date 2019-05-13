@@ -12,8 +12,5 @@ namespace Take_Out_ProjectAPI.Controllers
        // 1215551
         //456
         //123
-        //7894445
-        //12312312
-        //5555255555
     }
 }

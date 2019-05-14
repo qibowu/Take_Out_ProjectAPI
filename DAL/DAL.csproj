@@ -49,6 +49,7 @@
     <Compile Include="DalOpt.cs" />
     <Compile Include="DBHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDAL.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

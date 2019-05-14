@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-   public class ModelInfo
+   public class MvcModelInfo
     {
         //
         /// <summary>

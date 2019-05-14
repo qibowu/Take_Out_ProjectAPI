@@ -9,7 +9,6 @@ namespace Take_Out_ProjectAPI.Controllers
 {
     public class DefaultController : ApiController
     {
-        //456
-        //123
+        
     }
 }

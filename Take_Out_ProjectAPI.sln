@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take_Out_ProjectAPI", "Take_Out_ProjectAPI\Take_Out_ProjectAPI.csproj", "{34E82B3A-F6D5-44DA-9C1F-F3F78C7ADFC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{CE0C67C9-5B28-4233-9CE5-EFF280753F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{359EDE80-8DDC-4B6D-96D5-545F17E796F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CE0C67C9-5B28-4233-9CE5-EFF280753F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE0C67C9-5B28-4233-9CE5-EFF280753F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE0C67C9-5B28-4233-9CE5-EFF280753F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{359EDE80-8DDC-4B6D-96D5-545F17E796F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{359EDE80-8DDC-4B6D-96D5-545F17E796F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{359EDE80-8DDC-4B6D-96D5-545F17E796F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{359EDE80-8DDC-4B6D-96D5-545F17E796F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

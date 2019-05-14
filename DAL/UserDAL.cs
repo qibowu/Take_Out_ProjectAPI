@@ -8,5 +8,9 @@ namespace DAL
 {
     public  class UserDAL
     {
+        public int del()
+        {
+            return 0;
+        }
     }
 }

@@ -25,7 +25,7 @@ namespace Model
         public Guid Gid { get; set; }//菜品外键
         public Guid Oid { get; set; }//订单外键
         public decimal Gprice { get; set; }//菜品价格
-        public int Gnum { get; set; }//菜品数量
+        public int Gnum { get; set; }//菜品数量1
         /// <summary>
         /// 菜品表
         /// </summary>

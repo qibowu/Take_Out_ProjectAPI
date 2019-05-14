@@ -9,9 +9,6 @@ namespace DAL
 {
     public class DalOpt
     {
-        /// <summary>
-        /// //////
-        /// </summary>
-        string sql = "select ShopName";
+        
     }
 }

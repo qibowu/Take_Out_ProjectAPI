@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    class ModelInfo
+   public class ModelInfo
     {
+        //
         /// <summary>
         /// 评价表
         /// </summary>

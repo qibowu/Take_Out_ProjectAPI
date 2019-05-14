@@ -11,8 +11,9 @@ namespace DAL
         /// <summary>
         /// 全部订单
         /// </summary>
+        /// <param name="id">用户id</param>
         /// <returns></returns>
-        public List<ModelInfo> OrderShow(int id)
+        public List<ModelInfo> OrderShow(Guid id)
         {
             string sql = @"select * from OrderTable a join DetailTable b
             on a.OrderId = b.Oid join UserInfo c on a.Uid = c.UserId
@@ -24,9 +25,9 @@ namespace DAL
         /// <summary>
         /// 取消订单
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">订单id</param>
         /// <returns></returns>
-        public int DelOrder(int id)
+        public int DelOrder(Guid id)
         {
             string sql = "delete from OrderTable where OrderId=" + id;
             var dt = DBHelper.ExecuteNonQuery(sql);
@@ -36,17 +37,22 @@ namespace DAL
         /// <summary>
         /// 再来一单功能
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="id">订单id</param>
         /// <returns></returns>
-        public ModelInfo FtOrder(int id)
+        public ModelInfo FtOrder(Guid id)
         {
             string sql = "select * from DetailTable where Oid=" + id;
             var dt = DBHelper.GetDataTable(sql);
             var mo= DBHelper.ConvertTableToList<List<ModelInfo>>(dt).FirstOrDefault();
             return mo;
         }
-
-        public List<ModelInfo> OrderInfo(int uid,int oid)
+        /// <summary>
+        /// 订单详情
+        /// </summary>
+        /// <param name="uid">用户ID</param>
+        /// <param name="oid">订单ID</param>
+        /// <returns></returns>
+        public List<ModelInfo> OrderInfo(Guid uid, Guid oid)
         {
             string sql = string.Format(@"select * from OrderTable a join DetailTable b
 	        on a.OrderId=b.Oid join UserInfo c on a.Uid=c.UserId

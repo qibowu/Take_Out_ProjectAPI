@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Model;
 
 namespace DAL
 {
-    public class DalOpt
+    public  class UserDAL
     {
-        
+        public int del()
+        {
+            return 0;
+        }
     }
 }

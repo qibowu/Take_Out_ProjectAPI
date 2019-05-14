@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-   public class ModelInfo
+   public class MvcModelInfo
     {
-        //
+        //////
         /// <summary>
         /// 评价表
         /// </summary>
@@ -94,6 +94,7 @@ namespace Model
         //外键
         public Guid Uid { get; set; }//用户外键
         public Guid Sid { get; set; }//店铺外键
+
 
     }
 }

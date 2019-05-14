@@ -8,6 +8,7 @@ namespace Model
 {
     class ModelInfo
     {
+        //
         /// <summary>
         /// 评价表
         /// </summary>

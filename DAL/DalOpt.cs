@@ -12,6 +12,6 @@ namespace DAL
         /// <summary>
         /// //////
         /// </summary>
-        string sql = "select ShopName";
+      //  string sql = "select ShopName";
     }
 }

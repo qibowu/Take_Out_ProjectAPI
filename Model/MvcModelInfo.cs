@@ -8,7 +8,7 @@ namespace Model
 {
    public class MvcModelInfo
     {
-        /////
+        //////
         /// <summary>
         /// 评价表
         /// </summary>
